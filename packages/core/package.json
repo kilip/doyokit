@@ -20,7 +20,7 @@
     "@octokit/types": "^12.2.0",
     "@doyokit/tsconfig": "workspace:*",
     "add": "^2.0.6",
-    "before-after-hook": "^2.2.0",
+    "before-after-hook": "^3.0.0",
     "universal-user-agent": "^7.0.2"
   },
   "devDependencies": {
