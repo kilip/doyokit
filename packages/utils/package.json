@@ -22,7 +22,6 @@
     }
   },
   "dependencies": {
-    "@doyokit/tsconfig": "workspace:*",
     "openapi-typescript": "^6.7.1"
   },
   "devDependencies": {

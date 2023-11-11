@@ -1,5 +1,5 @@
 {
-  "extends": "@doyokit/tsconfig",
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
     "esModuleInterop": true,
     "declaration": true,
