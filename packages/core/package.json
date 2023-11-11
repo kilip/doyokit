@@ -1,6 +1,6 @@
 {
   "name": "@doyokit/core",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Typescript api client based on octokit library",
   "author": "Anthonius Munthi (https://github.com/kilip)",
   "repository": "github:kilip/doyokit",
