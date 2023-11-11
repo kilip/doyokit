@@ -17,6 +17,7 @@
   "lerna": {
     "command": {
       "publish": {
+        "directory": "{workspaceRoot}/{projectRoot}/pkg",
         "assets": [
           {
             "from": "src/generator/templates/*",

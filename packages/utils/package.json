@@ -14,6 +14,13 @@
   "keywords": [],
   "license": "MIT",
   "repository": "github:kilip/doyokit",
+  "lerna": {
+    "command": {
+      "publish": {
+        "directory": "{workspaceRoot}/{projectRoot}/pkg"
+      }
+    }
+  },
   "dependencies": {
     "@doyokit/tsconfig": "workspace:*",
     "openapi-typescript": "^6.7.1"

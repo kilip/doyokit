@@ -17,13 +17,7 @@
   "lerna": {
     "command": {
       "publish": {
-        "directory": "pkg",
-        "assets": [
-          {
-            "from": "src/generator/templates/*",
-            "to": "pkg/templates"
-          }
-        ]
+        "directory": "{workspaceRoot}/{projectRoot}/pkg"
       }
     }
   },

@@ -15,13 +15,6 @@
   "repository": "github:kilip/apikit",
   "author": "Anthonius Munthi (https://github.com/kilip)",
   "license": "MIT",
-  "lerna": {
-    "command": {
-      "publish": {
-        "directory": "{workspaceRoot}/{projectRoot}"
-      }
-    }
-  },
   "devDependencies": {
     "typescript": "^5.2.2"
   }
