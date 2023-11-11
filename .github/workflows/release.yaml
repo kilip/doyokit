@@ -24,6 +24,12 @@ jobs:
 
       - run: pnpm install
 
+      - name: "NPM Identity"
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
+
       - name: "Version and publish" # Interesting step
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
