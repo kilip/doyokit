@@ -18,7 +18,7 @@
   "lerna": {
     "command": {
       "publish": {
-        "directory": "."
+        "directory": "{workspaceRoot}/{projectRoot}"
       }
     }
   },
