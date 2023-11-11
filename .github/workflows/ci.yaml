@@ -16,6 +16,8 @@ jobs:
           - utils
           - core
           - generator
+      fail-fast: false
+
     steps:
       - uses: actions/checkout@v4
 

@@ -31,7 +31,9 @@ describe("writeFile()", () => {
     `;
     const targetFile = TARGET + "/test.txt";
 
-    removeFile(targetFile);
+    if (existsSync(targetFile)) {
+      removeFile(targetFile);
+    }
     expect(existsSync(targetFile)).toBe(false);
 
     writeFile(targetFile, contents);
