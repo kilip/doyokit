@@ -1,6 +1,6 @@
 {
   "name": "@doyokit/generator",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Generates typescript types and api client from OpenAPI schemas",
   "author": "Anthonius Munthi (https://github.com/kilip)",
   "scripts": {
