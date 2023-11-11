@@ -1,6 +1,6 @@
 {
   "name": "@doyokit/utils",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Generates typescript types and api client from OpenAPI schemas",
   "author": "Anthonius Munthi (https://github.com/kilip)",
   "main": "pkg/dist-node/index.js",
