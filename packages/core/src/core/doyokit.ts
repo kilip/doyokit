@@ -2,7 +2,6 @@ import { request } from "@octokit/request";
 import type { RequestParameters } from "@octokit/types";
 import type { HookCollection } from "before-after-hook";
 import { Collection } from "before-after-hook";
-
 import { getUserAgent } from "universal-user-agent";
 import type {
   Constructor,
