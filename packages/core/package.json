@@ -14,6 +14,19 @@
   "module": "pkg/dist-web/index.js",
   "types": "pkg/dist-types/index.d.ts",
   "source": "pkg/dist-src/index.js",
+  "lerna": {
+    "command": {
+      "publish": {
+        "directory": "pkg",
+        "assets": [
+          {
+            "from": "src/generator/templates/*",
+            "to": "pkg/templates"
+          }
+        ]
+      }
+    }
+  },
   "peerDependencies": {
     "before-after-hook": "~2.2.3",
     "universal-user-agent": "~6.0.0"
