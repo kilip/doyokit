@@ -1,0 +1,30 @@
+{
+  "name": "@doyokit/utils",
+  "version": "0.1.0",
+  "description": "Generates typescript types and api client from OpenAPI schemas",
+  "author": "Anthonius Munthi (https://github.com/kilip)",
+  "main": "pkg/dist-node/index.js",
+  "module": "pkg/dist-web/index.js",
+  "types": "pkg/dist-types/index.d.ts",
+  "source": "pkg/dist-src/index.js",
+  "scripts": {
+    "build": "node scripts/build.mjs && tsc -p tsconfig.json",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "repository": "github:kilip/doyokit",
+  "dependencies": {
+    "@doyokit/tsconfig": "workspace:*",
+    "openapi-typescript": "^6.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "esbuild": "^0.19.5",
+    "glob": "^10.3.10",
+    "vitest": "^0.34.6"
+  },
+  "engines": {
+    "node": ">= 18"
+  }
+}

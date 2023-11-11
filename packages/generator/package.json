@@ -1,0 +1,53 @@
+{
+  "name": "@doyokit/generator",
+  "version": "0.1.0",
+  "description": "Generates typescript types and api client from OpenAPI schemas",
+  "author": "Anthonius Munthi (https://github.com/kilip)",
+  "scripts": {
+    "build": "node scripts/build.mjs && tsc -p tsconfig.json",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "main": "pkg/dist-node/index.js",
+  "module": "pkg/dist-web/index.js",
+  "types": "pkg/dist-types/index.d.ts",
+  "source": "pkg/dist-src/index.js",
+  "repository": "github:kilip/doyokit",
+  "lerna": {
+    "command": {
+      "publish": {
+        "assets": [
+          {
+            "from": "src/generator/templates/*",
+            "to": "pkg/templates"
+          }
+        ]
+      }
+    }
+  },
+  "dependencies": {
+    "@doyokit/core": "workspace:*",
+    "@doyokit/tsconfig": "workspace:*",
+    "@doyokit/utils": "workspace:*",
+    "handlebars": "^4.7.8",
+    "lodash": "^4.17.21",
+    "openapi-typescript": "^6.7.1",
+    "prettier": "^3.0.3",
+    "sort-keys": "^5.0.0"
+  },
+  "devDependencies": {
+    "@octokit/types": "^12.2.0",
+    "@types/lodash": "^4.14.201",
+    "@types/node": "^20.9.0",
+    "esbuild": "^0.19.5",
+    "fetch-mock": "npm:@gr2m/fetch-mock@9.11.0-pull-request-644.1",
+    "glob": "^10.3.10",
+    "openapi-fetch": "^0.8.1",
+    "ts-node": "^10.9.1",
+    "vitest": "^0.34.6"
+  },
+  "engines": {
+    "node": ">= 18"
+  }
+}
