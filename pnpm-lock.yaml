@@ -17,9 +17,6 @@ importers:
 
   packages/core:
     dependencies:
-      '@doyokit/tsconfig':
-        specifier: workspace:*
-        version: link:../tsconfig
       '@octokit/core':
         specifier: ^5.0.1
         version: 5.0.1
@@ -57,9 +54,6 @@ importers:
       '@doyokit/core':
         specifier: workspace:*
         version: link:../core
-      '@doyokit/tsconfig':
-        specifier: workspace:*
-        version: link:../tsconfig
       '@doyokit/utils':
         specifier: workspace:*
         version: link:../utils
@@ -107,17 +101,8 @@ importers:
         specifier: ^0.34.6
         version: 0.34.6
 
-  packages/tsconfig:
-    devDependencies:
-      typescript:
-        specifier: ^5.2.2
-        version: 5.2.2
-
   packages/utils:
     dependencies:
-      '@doyokit/tsconfig':
-        specifier: workspace:*
-        version: link:../tsconfig
       openapi-typescript:
         specifier: ^6.7.1
         version: 6.7.1
