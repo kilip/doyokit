@@ -39,4 +39,4 @@ jobs:
           git config user.email "${{ github.actor}}@users.noreply.github.com"
           pnpm lerna version --conventional-commits --yes
           pnpm build
-          pnpm lerna publish from-git --yes
+          pnpm lerna publish from-git --yes --access public
