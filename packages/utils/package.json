@@ -28,7 +28,7 @@
     "@types/node": "^20.9.0",
     "esbuild": "^0.19.5",
     "glob": "^10.3.10",
-    "vitest": "^0.34.6"
+    "vitest": "^1.0.0"
   },
   "engines": {
     "node": ">= 18"

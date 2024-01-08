@@ -45,7 +45,7 @@
     "glob": "^10.3.10",
     "openapi-fetch": "^0.8.1",
     "ts-node": "^10.9.1",
-    "vitest": "^0.34.6"
+    "vitest": "^1.0.0"
   },
   "engines": {
     "node": ">= 18"
