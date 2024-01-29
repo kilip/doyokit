@@ -36,7 +36,7 @@
   "devDependencies": {
     "@types/fetch-mock": "^7.3.8",
     "@types/node": "^20.9.0",
-    "esbuild": "^0.19.5",
+    "esbuild": "^0.20.0",
     "glob": "^10.3.10"
   },
   "engines": {

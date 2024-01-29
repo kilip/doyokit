@@ -40,7 +40,7 @@
     "@octokit/types": "^12.2.0",
     "@types/lodash": "^4.14.201",
     "@types/node": "^20.9.0",
-    "esbuild": "^0.19.5",
+    "esbuild": "^0.20.0",
     "fetch-mock": "npm:@gr2m/fetch-mock@9.11.0-pull-request-644.1",
     "glob": "^10.3.10",
     "openapi-fetch": "^0.8.1",
