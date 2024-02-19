@@ -43,7 +43,7 @@
     "esbuild": "^0.19.5",
     "fetch-mock": "npm:@gr2m/fetch-mock@9.11.0-pull-request-644.1",
     "glob": "^10.3.10",
-    "openapi-fetch": "^0.8.1",
+    "openapi-fetch": "^0.9.0",
     "ts-node": "^10.9.1",
     "vitest": "^0.34.6"
   },
