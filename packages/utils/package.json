@@ -22,7 +22,7 @@
     }
   },
   "dependencies": {
-    "openapi-typescript": "^6.7.1"
+    "openapi-typescript": "^7.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.9.0",
