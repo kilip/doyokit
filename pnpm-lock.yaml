@@ -30,8 +30,8 @@ importers:
         specifier: ^2.0.6
         version: 2.0.6
       before-after-hook:
-        specifier: ~3.0.0
-        version: 3.0.2
+        specifier: ~4.0.0
+        version: 4.0.0
       universal-user-agent:
         specifier: ~7.0.0
         version: 7.0.2
@@ -1912,8 +1912,8 @@ packages:
   /before-after-hook@2.2.3:
     resolution: {integrity: sha512-NzUnlZexiaH/46WDhANlyR2bXRopNg4F/zuSA3OpZnllCUgRaOF2znDioDWrmbNVsuZk6l9pMquQB38cfBZwkQ==}
 
-  /before-after-hook@3.0.2:
-    resolution: {integrity: sha512-Nik3Sc0ncrMK4UUdXQmAnRtzmNQTAAXmXIopizwZ1W1t8QmfJj+zL4OA2I7XPTPW5z5TDqv4hRo/JzouDJnX3A==}
+  /before-after-hook@4.0.0:
+    resolution: {integrity: sha512-q6tR3RPqIB1pMiTRMFcZwuG5T8vwp+vUvEG0vuI6B+Rikh5BfPp2fQ82c925FOs+b0lcFQ8CFrL+KbilfZFhOQ==}
     dev: false
 
   /bl@4.1.0:
