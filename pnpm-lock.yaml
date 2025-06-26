@@ -92,8 +92,8 @@ importers:
         specifier: ^10.3.10
         version: 10.3.10
       openapi-fetch:
-        specifier: ^0.9.0
-        version: 0.9.1
+        specifier: ^0.12.0
+        version: 0.12.0
       ts-node:
         specifier: ^10.9.1
         version: 10.9.1(@types/node@20.9.0)(typescript@5.7.3)
@@ -4264,14 +4264,14 @@ packages:
       is-wsl: 2.2.0
     dev: true
 
-  /openapi-fetch@0.9.1:
-    resolution: {integrity: sha512-5Ctb4L2v9X4Kc21zYtEufFNuLhUN6hO/3MZC89am7lnWXGXDUEnPOYC8a5wK9rtySCbJjq2QrDJo3CY6vWqbNw==}
+  /openapi-fetch@0.12.0:
+    resolution: {integrity: sha512-D/g5BUGiOAKqivR5s02veJ2+cMHzrkFJKberKP4Z8Vl2VhE6MMirI6wWOgpp8wlsYCRRK7CX0NCGVL/mt6l1fA==}
     dependencies:
-      openapi-typescript-helpers: 0.0.7
+      openapi-typescript-helpers: 0.0.13
     dev: true
 
-  /openapi-typescript-helpers@0.0.7:
-    resolution: {integrity: sha512-7nwlAtdA1fULipibFRBWE/rnF114q6ejRYzNvhdA/x+qTWAZhXGLc/368dlwMlyJDvCQMCnADjpzb5BS5ZmNSA==}
+  /openapi-typescript-helpers@0.0.13:
+    resolution: {integrity: sha512-z44WK2e7ygW3aUtAtiurfEACohf/Qt9g6BsejmIYgEoY4REHeRzgFJmO3ium0libsuzPc145I+8lE9aiiZrQvQ==}
     dev: true
 
   /openapi-typescript@7.7.1(typescript@5.7.3):
