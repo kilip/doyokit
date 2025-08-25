@@ -70,8 +70,8 @@ importers:
         specifier: ^3.0.3
         version: 3.0.3
       sort-keys:
-        specifier: ^5.0.0
-        version: 5.0.0
+        specifier: ^6.0.0
+        version: 6.0.0
     devDependencies:
       '@octokit/types':
         specifier: ^12.2.0
@@ -5018,9 +5018,9 @@ packages:
       is-plain-obj: 1.1.0
     dev: true
 
-  /sort-keys@5.0.0:
-    resolution: {integrity: sha512-Pdz01AvCAottHTPQGzndktFNdbRA75BgOfeT1hH+AMnJFv8lynkPi42rfeEhpx1saTEI3YNMWxfqu0sFD1G8pw==}
-    engines: {node: '>=12'}
+  /sort-keys@6.0.0:
+    resolution: {integrity: sha512-ueSlHJMwpIw42CJ4B11Uxzh/S0p0AlOyiNktlv2KOu5e1JpUE6DlC4AAUjXqesHdBRv/g0wC9Q4vwq0NP2pA9w==}
+    engines: {node: '>=20'}
     dependencies:
       is-plain-obj: 4.1.0
     dev: false
