@@ -34,7 +34,7 @@
     "lodash": "^4.17.21",
     "openapi-typescript": "^7.0.0",
     "prettier": "^3.0.3",
-    "sort-keys": "^5.0.0"
+    "sort-keys": "^6.0.0"
   },
   "devDependencies": {
     "@octokit/types": "^12.2.0",
