@@ -41,7 +41,7 @@ importers:
         version: 7.3.8
       '@types/node':
         specifier: ^20.9.0
-        version: 20.9.0
+        version: 20.19.43
       esbuild:
         specifier: ^0.19.5
         version: 0.19.5
@@ -65,7 +65,7 @@ importers:
         version: 4.17.21
       openapi-typescript:
         specifier: ^7.0.0
-        version: 7.7.1(typescript@5.7.3)
+        version: 7.7.1(typescript@5.9.3)
       prettier:
         specifier: ^3.0.3
         version: 3.0.3
@@ -81,7 +81,7 @@ importers:
         version: 4.14.201
       '@types/node':
         specifier: ^20.9.0
-        version: 20.9.0
+        version: 20.19.43
       esbuild:
         specifier: ^0.19.5
         version: 0.19.5
@@ -96,20 +96,20 @@ importers:
         version: 0.9.1
       ts-node:
         specifier: ^10.9.1
-        version: 10.9.1(@types/node@20.9.0)(typescript@5.7.3)
+        version: 10.9.1(@types/node@20.19.43)(typescript@5.9.3)
       vitest:
         specifier: ^3.0.0
-        version: 3.0.5(@types/node@20.9.0)
+        version: 3.0.5(@types/node@20.19.43)
 
   packages/utils:
     dependencies:
       openapi-typescript:
         specifier: ^7.0.0
-        version: 7.7.1(typescript@5.7.3)
+        version: 7.7.1(typescript@5.9.3)
     devDependencies:
       '@types/node':
         specifier: ^20.9.0
-        version: 20.9.0
+        version: 20.19.43
       esbuild:
         specifier: ^0.19.5
         version: 0.19.5
@@ -118,7 +118,7 @@ importers:
         version: 10.3.10
       vitest:
         specifier: ^3.0.0
-        version: 3.0.5(@types/node@20.9.0)
+        version: 3.0.5(@types/node@20.19.43)
 
 packages:
 
@@ -1635,10 +1635,10 @@ packages:
     resolution: {integrity: sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==}
     dev: true
 
-  /@types/node@20.9.0:
-    resolution: {integrity: sha512-nekiGu2NDb1BcVofVcEKMIwzlx4NjHlcjhoxxKBNLtz15Y1z7MYf549DFvkHSId02Ax6kGwWntIBPC3l/JZcmw==}
+  /@types/node@20.19.43:
+    resolution: {integrity: sha512-6oYBAi5ikg4Pl+kGsoYtawUMBT2zZMCvPNF7pVLnHZfd1zf38DRiWn/gT01RYCdUqkv7Fhr+C9ot4/tb+2sVvA==}
     dependencies:
-      undici-types: 5.26.5
+      undici-types: 6.21.0
     dev: true
 
   /@types/normalize-package-data@2.4.4:
@@ -1668,7 +1668,7 @@ packages:
       '@vitest/spy': 3.0.5
       estree-walker: 3.0.3
       magic-string: 0.30.17
-      vite: 6.1.0(@types/node@20.9.0)
+      vite: 6.1.0(@types/node@20.19.43)
     dev: true
 
   /@vitest/pretty-format@3.0.5:
@@ -4274,7 +4274,7 @@ packages:
     resolution: {integrity: sha512-7nwlAtdA1fULipibFRBWE/rnF114q6ejRYzNvhdA/x+qTWAZhXGLc/368dlwMlyJDvCQMCnADjpzb5BS5ZmNSA==}
     dev: true
 
-  /openapi-typescript@7.7.1(typescript@5.7.3):
+  /openapi-typescript@7.7.1(typescript@5.9.3):
     resolution: {integrity: sha512-apa45jEOxcVfYHTD9eHpW0cR8yQn7jQFTCnSWNdjKbWmyjha8CMj1LdGHdk0Z70kFSR6EfjdDuOCY7PFICrNSg==}
     hasBin: true
     peerDependencies:
@@ -4285,7 +4285,7 @@ packages:
       change-case: 5.4.4
       parse-json: 8.3.0
       supports-color: 9.4.0
-      typescript: 5.7.3
+      typescript: 5.9.3
       yargs-parser: 21.1.1
     dev: false
 
@@ -5306,7 +5306,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /ts-node@10.9.1(@types/node@20.9.0)(typescript@5.7.3):
+  /ts-node@10.9.1(@types/node@20.19.43)(typescript@5.9.3):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -5325,14 +5325,14 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.9.0
+      '@types/node': 20.19.43
       acorn: 8.11.2
       acorn-walk: 8.3.0
       arg: 4.1.3
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
-      typescript: 5.7.3
+      typescript: 5.9.3
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     dev: true
@@ -5405,8 +5405,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.7.3:
-    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
+  /typescript@5.9.3:
+    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -5417,8 +5417,8 @@ packages:
     requiresBuild: true
     optional: true
 
-  /undici-types@5.26.5:
-    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+  /undici-types@6.21.0:
+    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
     dev: true
 
   /unique-filename@2.0.1:
@@ -5514,7 +5514,7 @@ packages:
       builtins: 5.0.1
     dev: true
 
-  /vite-node@3.0.5(@types/node@20.9.0):
+  /vite-node@3.0.5(@types/node@20.19.43):
     resolution: {integrity: sha512-02JEJl7SbtwSDJdYS537nU6l+ktdvcREfLksk/NDAqtdKWGqHl+joXzEubHROmS3E6pip+Xgu2tFezMu75jH7A==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
@@ -5523,7 +5523,7 @@ packages:
       debug: 4.4.0(supports-color@9.4.0)
       es-module-lexer: 1.6.0
       pathe: 2.0.3
-      vite: 6.1.0(@types/node@20.9.0)
+      vite: 6.1.0(@types/node@20.19.43)
     transitivePeerDependencies:
       - '@types/node'
       - jiti
@@ -5539,7 +5539,7 @@ packages:
       - yaml
     dev: true
 
-  /vite@6.1.0(@types/node@20.9.0):
+  /vite@6.1.0(@types/node@20.19.43):
     resolution: {integrity: sha512-RjjMipCKVoR4hVfPY6GQTgveinjNuyLw+qruksLDvA5ktI1150VmcMBKmQaEWJhg/j6Uaf6dNCNA0AfdzUb/hQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
@@ -5579,7 +5579,7 @@ packages:
       yaml:
         optional: true
     dependencies:
-      '@types/node': 20.9.0
+      '@types/node': 20.19.43
       esbuild: 0.24.2
       postcss: 8.5.2
       rollup: 4.34.7
@@ -5587,7 +5587,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@3.0.5(@types/node@20.9.0):
+  /vitest@3.0.5(@types/node@20.19.43):
     resolution: {integrity: sha512-4dof+HvqONw9bvsYxtkfUp2uHsTN9bV2CZIi1pWgoFpL1Lld8LA1ka9q/ONSsoScAKG7NVGf2stJTI7XRkXb2Q==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
@@ -5615,7 +5615,7 @@ packages:
       jsdom:
         optional: true
     dependencies:
-      '@types/node': 20.9.0
+      '@types/node': 20.19.43
       '@vitest/expect': 3.0.5
       '@vitest/mocker': 3.0.5(vite@6.1.0)
       '@vitest/pretty-format': 3.0.5
@@ -5633,8 +5633,8 @@ packages:
       tinyexec: 0.3.2
       tinypool: 1.0.2
       tinyrainbow: 2.0.0
-      vite: 6.1.0(@types/node@20.9.0)
-      vite-node: 3.0.5(@types/node@20.9.0)
+      vite: 6.1.0(@types/node@20.19.43)
+      vite-node: 3.0.5(@types/node@20.19.43)
       why-is-node-running: 2.3.0
     transitivePeerDependencies:
       - jiti
