@@ -37,7 +37,7 @@
     "sort-keys": "^5.0.0"
   },
   "devDependencies": {
-    "@octokit/types": "^12.2.0",
+    "@octokit/types": "^18.0.0",
     "@types/lodash": "^4.14.201",
     "@types/node": "^20.9.0",
     "esbuild": "^0.19.5",
